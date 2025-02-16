@@ -1,6 +1,6 @@
 :root {
     --main-color: #d3ad7f;
-    --black: #13131a;
+    --black: #13131A; 
     --bg: #010103;
     --border: 0.1rem solid rgba(255, 255, 255, 0.3);
 
@@ -82,13 +82,13 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 7%;
-    /* border-bottom: var(--border); */
+    border-bottom: var(--border);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background: transparent;
+    background: var(--bg);
 }
 
 .header .logo img {
@@ -221,7 +221,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(image/coffee_image.svg) no-repeat;
+    background: url(image/img\ 5.svg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -357,7 +357,7 @@ section {
 }
 
 .products .box-contaniner .box .image img {
-    height: 30rem;
+    height: 25rem;
 }
 
 .products .box-contaniner .box .content h3 {
@@ -486,12 +486,12 @@ section {
 .blogs .box-contanier {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .blogs .box-contanier .box {
     border: var(--border);
-    border-radius: 0.9rem;
+    
 }
 
 .blogs .box-contanier.box .image {
@@ -504,13 +504,13 @@ section {
     height: 100%;
     object-fit: cover;
     width: 100%;
-    border-radius: 0.9rem  0.9rem  0 0;
+    
 }
 
-/* .blogs .box-contanier .box:hover .image img{
+.blogs .box-contanier .box:hover .image img{
     transform: scale(1.2);
     
-} */
+}
 
 .blogs .box-contanier .box .content {
     padding: 2rem;
